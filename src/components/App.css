@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  /*min-height: 100vh;*/
+  /*font-weight: 400;*/
+}
+
+ul {
+  padding-left: 8px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.post>span, .author, .timestamp {
+  /*display: block;*/
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover, a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #000033;
+}
+
+a:visited {
+  color: #000033;
+}
+
+input, textarea, select {
+  /*border: none;*/
+  background-color: transparent;
+  /*border-bottom: dashed 1px #1ec503;*/
+  margin-top: 8px;
+  outline: none;
+  margin-left: 8px;
+}
+
+input[type=submit] {
+  /*border: 1px solid #1ec503;*/
+  /*cursor: pointer;*/
+}
+
+select {
+  /*border-radius: 0px;*/
+  /*-webkit-appearance: none;*/
+  /*width: 115px;*/
+}
